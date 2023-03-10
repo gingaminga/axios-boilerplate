@@ -5,7 +5,7 @@
 
 ## 😯어떻게 쓰나요?
 
-사용법은 간단해요.
+테스트는 아래처럼 해보세요.
 
 ```bash
 # 로컬로 다운받기
@@ -32,20 +32,3 @@ $ npm run dev
   - `utils`
     - `axios.ts` : axios를 모듈화한 파일
   - `index.ts` : api/bored.ts를 사용하여 실제 호출 테스트를 한 파일
-
-## 👍 자신의 프로젝트에 반영하기
-
-원격지를 추가한 후에 `merge or rebase`를 하면 반영돼요. :)
-
-```bash
-# 원격지 추가
-$ git remote add axios https://github.com/gingaminga/axios-boilerplate.git
-
-# boilerplate repository 반영사항 가져오기
-$ git fetch axios main
-
-# 반영사항을 현재 (자신의) 로컬 브랜치에 합치기
-$ git rebase axios/main
-# or
-$ git merge axios/main
-```
